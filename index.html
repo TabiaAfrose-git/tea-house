@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
-</head>
-<body>
+    <!-- daisyui link -->
 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .Manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <title>Tea-house</title>
+</head>
+<body class=".Manrope">
+<main class="bg-white mx-auto">
+    <section>
+        <div class="hero min-h-screen bg-white">
+            <div class="hero-content flex-col lg:flex-row-reverse gap-6">
+                <div class="flex items-center justify-center relative">
+                    <div></div>
+                    <img src="images/banner.png" class="w-2/3 rounded-lg"/>
+                    <div class="flex gap-4 p-4 shadow-xl bg-white rounded-md absolute bottom-1 left-1" >
+                        <div><img src="./images/star.png" alt=""></div>
+                        <div>
+                            <h4>5.00</h4>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+              <div class="w-[50%] ">
+                <h1 class="text-5xl font-bold items-center">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6 w-2/3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-red-400 opacity-0  to-red-700 opacity-100 text-white border-none">Explore More</button>
+              </div>
+            </div>
+          </div>
+    </section>
+</main>
+<footer></footer>
 </body>
 </html>
